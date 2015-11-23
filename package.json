@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/dromedary-case/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/dromedary-case#readme"
+  "homepage": "https://github.com/IonicaBizau/dromedary-case#readme",
+  "dependencies": {
+    "regex-escape": "^3.3.0",
+    "uc-first-array": "^1.0.0"
+  }
 }
