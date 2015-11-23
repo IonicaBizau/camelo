@@ -1,0 +1,28 @@
+{
+  "name": "dromedary-case",
+  "version": "1.0.0",
+  "description": "Convert a string into camel case style by providing the separators.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/dromedary-case.git"
+  },
+  "keywords": [
+    "dromedary",
+    "camel",
+    "case",
+    "style"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/dromedary-case/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/dromedary-case#readme"
+}
