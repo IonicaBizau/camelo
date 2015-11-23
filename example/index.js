@@ -2,6 +2,13 @@
 const camelCase = require("../lib");
 
 console.log(camelCase("default behavior_using*strange|chars"));
-console.log(camelCase("using_underscores but not spaces", "_"));
-console.log(camelCase("uppercase first char as well using_underscores but not spaces", "_", true));
-console.log(camelCase("handling*asterisk:and:colons", ["*", ":"], true));
+// => defaultBehaviorUsingStrangeChars
+
+console.log(camelCase("handling_underscores but not spaces", "_"));
+// => handlingUnderscores but not spaces
+
+console.log(camelCase("uppercase first char as well", " ", true));
+// => UppercaseFirstCharAsWell
+
+console.log(camelCase("handling*asterisk:and:colons", ["*", ":"]));
+// => handlingAsteriskAndColons
