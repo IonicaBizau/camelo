@@ -1,26 +1,44 @@
-# dromedary-case [![Support this project][donate-now]][paypal-donations]
+# camelo [![Support this project][donate-now]][paypal-donations]
 
 Convert a string into camel case style by providing the separators.
 
 ## Installation
 
 ```sh
-$ npm i dromedary-case
+$ npm i camelo
 ```
 
 ## Example
 
 ```js
 // Dependencies
-const camelCase = require("dromedary-case");
+const camelo = require("camelo");
 
-console.log(camelCase("default behavior_using*strange|chars"));
-console.log(camelCase("using_underscores but not spaces", "_"));
-console.log(camelCase("uppercase first char as well using_underscores but not spaces", "_", true));
-console.log(camelCase("handling*asterisk:and:colons", ["*", ":"], true));
+console.log(camelo("default behavior_using*strange|chars"));
+// => defaultBehaviorUsingStrangeChars
+
+console.log(camelo("handling_underscores but not spaces", "_"));
+// => handlingUnderscores but not spaces
+
+console.log(camelo("uppercase first char as well", " ", true));
+// => UppercaseFirstCharAsWell
+
+console.log(camelo("handling*asterisk:and:colons", ["*", ":"]));
+// => handlingAsteriskAndColons
 ```
 
 ## Documentation
+
+### `camelo(input, regex, uc)`
+Converts an input string into camel-case style.
+
+#### Params
+- **String** `input`: The input string.
+- **Regex|String|Array** `regex`: A regular expression, a string character or an array of strings used to split the input string.
+- **Boolean** `uc`: If `true`, it will uppercase the first word as well.
+
+#### Return
+- **String** The camelized input value.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
@@ -30,12 +48,11 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 ## License
 
-[MIT][license] © [Ionică Bizău][website]
+MIT © [Ionică Bizău][website]
 
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
-[license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(http%3A%2F%2Fionicabizau.net)&year=2015#license-mit
 [website]: http://ionicabizau.net
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md
