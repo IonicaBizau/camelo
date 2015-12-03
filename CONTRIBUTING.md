@@ -59,6 +59,6 @@ Contributions are more than welcome!
 
 Thanks! :sweat_smile:
 
-[1]: https://github.com/IonicaBizau/dromedary-case/issues
+[1]: https://github.com/IonicaBizau/camelo/issues
 
 [2]: https://github.com/IonicaBizau/code-style
