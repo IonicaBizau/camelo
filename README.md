@@ -1,14 +1,18 @@
+
 # camelo [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/camelo.svg)](https://www.npmjs.com/package/camelo) [![Downloads](https://img.shields.io/npm/dt/camelo.svg)](https://www.npmjs.com/package/camelo) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Convert a string into camel case style by providing the separators.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save camelo
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -27,7 +31,8 @@ console.log(camelo("handling*asterisk:and:colons", ["*", ":"]));
 // => handlingAsteriskAndColons
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `camelo(input, regex, uc)`
 Converts an input string into camel-case style.
@@ -40,15 +45,21 @@ Converts an input string into camel-case style.
 #### Return
 - **String** The camelized input value.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`emojic`](https://github.com/IonicaBizau/emojic#readme)
 
-## License
+ - [`emojic`](https://github.com/IonicaBizau/emojic#readme)—Emoji in your Node.js command line apps.
+ - [`js-templates.class-export`](https://github.com/IonicaBizau/js-templates.class-export#readme)—Generate a sample class export code.
+ - [`js-templates.example`](https://github.com/IonicaBizau/js-templates.example#readme)—A template for example files.
+ - [`js-templates.function-export`](https://github.com/IonicaBizau/js-templates.function-export#readme)—Generate a sample function export code.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
