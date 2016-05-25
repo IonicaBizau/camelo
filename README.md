@@ -1,5 +1,7 @@
 
-# camelo [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/camelo.svg)](https://www.npmjs.com/package/camelo) [![Downloads](https://img.shields.io/npm/dt/camelo.svg)](https://www.npmjs.com/package/camelo) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# camelo
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/camelo.svg)](https://www.npmjs.com/package/camelo) [![Downloads](https://img.shields.io/npm/dt/camelo.svg)](https://www.npmjs.com/package/camelo) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Convert a string into camel case style by providing the separators.
 
@@ -58,6 +60,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`js-templates.class-export`](https://github.com/IonicaBizau/js-templates.class-export#readme)—Generate a sample class export code.
  - [`js-templates.example`](https://github.com/IonicaBizau/js-templates.example#readme)—A template for example files.
  - [`js-templates.function-export`](https://github.com/IonicaBizau/js-templates.function-export#readme)—Generate a sample function export code.
+ - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
 
 ## :scroll: License
 
