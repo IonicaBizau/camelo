@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save camelo
+# Using npm
+npm install --save camelo
+
+# Using yarn
+yarn add camelo
 ```
 
 
