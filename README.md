@@ -185,9 +185,9 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `tilda`
  - `emojic`
  - `fs-file-tree`
- - `js-templates.class-export`
  - `js-templates.example`
  - `js-templates.function-export`
+ - `js-templates.class-export`
  - `tester-init`
  - `tilda-init`
  - `bloggify-sequelize`
