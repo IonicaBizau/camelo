@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,9 @@
   },
   "homepage": "https://github.com/IonicaBizau/camelo#readme",
   "dependencies": {
-    "regex-escape": "^3.3.0",
-    "uc-first-array": "^1.0.0"
+    "mocha": "^8.2.0",
+    "regex-escape": "^3.4.10",
+    "uc-first-array": "^1.1.10"
   },
   "files": [
     "bin/",
