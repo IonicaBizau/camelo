@@ -1,5 +1,7 @@
+"use strict";
+
 // Dependencies
-const camelo = require("../lib");
+var camelo = require("../lib");
 
 console.log(camelo("default behavior_using*strange|chars"));
 // => defaultBehaviorUsingStrangeChars

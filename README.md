@@ -75,7 +75,7 @@ yarn add camelo
 
 ```js
 // Dependencies
-const camelo = require("camelo");
+var camelo = require("camelo");
 
 console.log(camelo("default behavior_using*strange|chars"));
 // => defaultBehaviorUsingStrangeChars
@@ -182,15 +182,15 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - `tilda`
  - `emojic`
+ - `tilda`
  - `fs-file-tree`
- - `js-templates.example`
  - `js-templates.function-export`
  - `js-templates.class-export`
- - `tester-init`
- - `tilda-init`
+ - `js-templates.example`
  - `bloggify-sequelize`
+ - `tilda-init`
+ - `tester-init`
 
 
 
