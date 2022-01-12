@@ -1,6 +1,6 @@
 {
   "name": "camelo",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "description": "Convert a string into camel case style by providing the separators.",
   "main": "lib/index.js",
   "directories": {
@@ -25,8 +25,10 @@
     "url": "https://github.com/IonicaBizau/camelo/issues"
   },
   "homepage": "https://github.com/IonicaBizau/camelo#readme",
+  "devDependencies": {
+    "mocha": "^8.2.0"
+  },
   "dependencies": {
-    "mocha": "^8.2.0",
     "regex-escape": "^3.4.10",
     "uc-first-array": "^1.1.10"
   },
