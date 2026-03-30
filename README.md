@@ -75,7 +75,7 @@ yarn add camelo
 
 ```js
 // Dependencies
-var camelo = require("camelo");
+import camelo from "camelo";
 
 console.log(camelo("default behavior_using*strange|chars"));
 // => defaultBehaviorUsingStrangeChars

@@ -3,6 +3,7 @@
   "version": "1.2.2",
   "description": "Convert a string into camel case style by providing the separators.",
   "main": "lib/index.js",
+  "type": "module",
   "directories": {
     "example": "example"
   },
@@ -29,8 +30,8 @@
     "mocha": "^9.2.0"
   },
   "dependencies": {
-    "regex-escape": "^3.4.10",
-    "uc-first-array": "^1.1.10"
+    "regex-escape": "^4.0.0",
+    "uc-first-array": "^2.0.0"
   },
   "files": [
     "bin/",
